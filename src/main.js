@@ -7,8 +7,10 @@ import 'normalize.css/normalize.css'
 // import "./Widgets/widgets.css"
 import 'vue-cesium/dist/index.css'
 import VueCesium from 'vue-cesium'
+import VScaleScreen from 'v-scale-screen'
 
 let app = createApp(App)
 app.use(router)
 app.use(VueCesium)
+app.use(VScaleScreen)
 app.mount('#app')
